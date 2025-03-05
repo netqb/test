@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир Гитары</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Мир Гитары</h1>
+            <p>Всё, что вы хотели знать о гитарах</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">О гитарах</a></li>
+            <li><a href="#models">Модели</a></li>
+            <li><a href="#lessons">Уроки</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <h2>О гитарах</h2>
+            <p>Гитара — это не просто инструмент, это целый мир эмоций и творчества. На нашем сайте вы найдёте всё, что
+                нужно для погружения в мир гитар: от выбора первой гитары до уроков для начинающих.</p>
+            <img src="images/2.png" alt="Гитара" class="section-image">
+        </div>
+    </section>
+
+    <section id="models">
+        <div class="container">
+            <h2>Популярные модели</h2>
+            <div class="gallery">
+                <div class="guitar-card">
+                    <img src="images/1.png" alt="Акустическая гитара">
+                    <h3>Акустическая гитара</h3>
+                    <p>Идеальна для начинающих и любителей живого звука.</p>
+                </div>
+                <div class="guitar-card">
+                    <img src="images/3.png" alt="Электрогитара">
+                    <h3>Электрогитара</h3>
+                    <p>Для тех, кто хочет играть рок, блюз или джаз.</p>
+                </div>
+                <div class="guitar-card">
+                    <img src="images/4.png" alt="Бас-гитара">
+                    <h3>Бас-гитара</h3>
+                    <p>Основа ритма и гармонии в любой группе.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="lessons">
+        <div class="container">
+            <h2>Уроки для начинающих</h2>
+            <p>Начните своё путешествие в мир гитары с наших уроков:</p>
+            <ul>
+                <li>Как правильно держать гитару</li>
+                <li>Основные аккорды</li>
+                <li>Простые мелодии для начинающих</li>
+            </ul>
+            <img src="images/5.png" alt="Уроки гитары" class="section-image">
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Свяжитесь с нами</h2>
+            <form action="#" method="post">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Мир Гитары. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
